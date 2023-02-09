@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Belajar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="Belajar.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=East+Sea+Dokdo&family=Inspiration&family=Roboto:ital,wght@1,300&family=Sevillana&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+ 
+    
+    
+
+     <!-- navbar -->
+     <nav class="navbar navbar-dark nav-color fixed-top">
+      <div class="container-fluid">
+          <div class="navbar-header">
+              <a href="" class="navbar-brand page-scroll">Baca Tulis</a>
+          </div>
+           <!-- navbar toggler -->
+           <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+              <span class="material-symbols-outlined">
+                  home
+                  </span>
+            </button>
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+              <div class="offcanvas-header nav-color">
+                <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page"  href="cover/index.html" class="page-scroll">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#baca" class="page-scroll">Pengenalan Huruf</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#tulis" class="page-scroll">Cara Menulis</a>
+                    </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#voice" class="page-scroll scrollspy">Cara Membaca</a>
+                    </li>
+                </ul>
+                <!-- audio -->
+                <center>
+          <audio style="margin-top: 50px;" controls src="../project/assets/Merry Go Round of Life Howls Moving Castle Lull and Relax.mp3"></audio>
+        </center>
+
+                <!-- search bar -->
+                
+              <!-- <form class="d-flex mt-3 search" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-success" type="submit">Search</button>
+              </form> -->
+              <!-- end search bar -->
+      </div>
+  </nav>
+  <!-- end navbar -->
+
+
+
+    
+
+        
+    <!-- <audio controls src="">
+        
+          </audio> -->
+          
+    <section class="baca" id="baca">
+      <div class="container">
+        <center>
+
+          <div class="row">
+            <div class="col-sm-12">
+              <h1 class="text-center">
+                Pengenalan Huruf Abjad
+              </h1>
+              <p style="font-family: 'Courier New', Courier, monospace;">Huruf Abjad terdiri dari 26 huruf yaitu:</p>
+              
+              <div class="col-sm-6 mb-4">
+                <a href="" class="thumbnail">
+                    <img src="img/abjad.png" class="img-thumbnail" alt="">
+                </a>
+            </div>
+              
+            </div>
+          </div>
+        </center>
+      </div>
+    </section>
+
+    <section class="tulis" id="tulis">
+      <div class="container">
+        <center>
+          <div class="row">
+            <div class="col-sm-12">
+              <h1 class="text-center">
+                Cara Menulis Huruf
+              </h1>
+                <p style="font-family: 'Courier New', Courier, monospace;">Pada video ini pak guru Louis Wigung akan mengajar menulis huruf</p>
+              <div class="video-container">
+                
+                <div class="video">
+                  <video class="col-sm-8" controls height="400px" src="../project/assets/VID_20230207_122556_640x360.mp4">
+
+                  </video>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </center>
+      </div>
+    </section>
+
+  <section class="voice" id="voice">
+
+      <div class="container">
+        <center>
+        <div class="row">
+          <div class="col-sm-12">
+            <!-- loader -->
+            <div class="loading">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+                                
+
+            <div class="wrapper">
+             
+              <header>Cara Membaca</header>
+             
+              <form action="#Mulai">
+                <div class="row">
+                  <label>Masukan Text dan Google akan membantu anda membaca</label>
+                  <textarea></textarea>
+                </div>
+                <div class="row">
+                  <label>Pilih Suara</label>
+                  <div class="outer">
+                    <select></select>
+                  </div>
+                </div>
+                <button class="mulai">Baca</button>
+              </form>
+            
+            </div>
+        
+        </center>
+      </div>
+
+  </section>
+
+  <!-- footer -->
+  <footer>
+    <div class="container">
+      <hr>
+        <div class="row">
+            <div class="col-sm-12">
+                <p>© 2023 | Created by Andreas Marcelino Yuwana</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+    <!-- preload -->
+    <script>
+        $(document).ready(function() {
+            $(".loading").fadeOut("slow");
+        });
+    </script>
+    <!-- end preload -->
+    <script src="../project/belajar.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>
