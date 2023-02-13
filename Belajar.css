@@ -148,7 +148,7 @@ form button:hover{
 
 /* offcanvas */
 .offcanvas {
-  background-image: url("../project/img/deep-void.png");
+  background-image: url("/img/deep-void.png");
   background-size: cover;
 }
 
